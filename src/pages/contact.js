@@ -19,7 +19,7 @@ function Contact() {
 
                   <form className="mx-auto" action="/action_page.php">
                     <div className="form-group">
-                      <label for="Name">Name</label>
+                      <label htmlFor="Name">Name</label>
                       <input type="text" className="form-control" id="Name" placeholder="John Smith" />
                     </div>
                     <div className="form-group">
