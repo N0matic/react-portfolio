@@ -1,12 +1,12 @@
 import React from 'react';
-import "./home.css";
+import './home.css';
 
 function Home() {
   return (
-    <div className="max-w-sm w-full lg:max-w-full lg:flex content-center">
+    <div className="max-w-sm w-full lg:max-w-full lg:flex m-auto table">
 
-      <img className="w-auto lg:h-auto lg:w-1/4 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden" src={process.env.PUBLIC_URL + '/images/headshot.jpg'} alt="Z's Headshot">
-      </img>
+      <div className="image h-56 lg:h-auto lg:w-1/4 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Z's Headshot">
+      </div>
 
       <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div className="mb-8">
@@ -15,7 +15,8 @@ function Home() {
 
           <hr className="my-3" />
 
-          <p className="text-gray-700 text-base flex items-center">Software coder and nomad extraordinaire based out of Austin Texas, a passion for language produced a fluency in Spanish and Modern Greek and led me to coding.
+          <p className="text-gray-700 text-base flex items-center">
+            Software coder and nomad extraordinaire based out of Austin Texas, a passion for language produced a fluency in Spanish and Modern Greek and led me to coding.
                                 <br /><br />
             Served in the Peace Corps in Ecuador and taught EFL for 7 years. Piloted the language
             section of a dual-degree Fire Safety program between Oklahoma State University and Southwest Jiatong University in Chengdu, China, and revamped the curriculum for the Benedict School of English in
