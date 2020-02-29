@@ -1,9 +1,42 @@
 import React from 'react';
+import './home.css';
 
 function Portfolio() {
   return (
-    <div>
-      <div className="container">
+    <div className="m-auto w-4/5 md:p-5 grid grid-rows-2 grid-flow-col gap-10 justify-center">
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="ATX_Now">Password Generator</div>
+      </div>
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="quiz">Javascript Quiz</div>
+      </div>
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="DayPlanner">Day Planner</div>
+      </div>
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="ATX_Now">ATX Now</div>
+      </div>
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="note_taker">Note Taker</div>
+      </div>
+
+      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
+        <div className="employee_database">Employee Database</div>
+      </div>
+
+    </div>
+  )
+}
+
+export default Portfolio
+
+
+{/* <div className="container">
         <div className="row">
 
           <div className=".container">
@@ -54,8 +87,4 @@ function Portfolio() {
 
         </div>
       </div>
-    </div>
-  )
-}
-
-export default Portfolio
+    </div> */}
