@@ -1,32 +1,27 @@
 import React from 'react';
 import './home.css';
+import './portfolio.css';
 
 function Portfolio() {
   return (
-    <div className="m-auto w-4/5 md:p-5 grid grid-rows-2 grid-flow-col gap-10 justify-center">
+    <div className="m-auto w-4/5 md:p-5 grid grid-rows-2 grid-flow-col gap-5 justify-safe">
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="ATX_Now">Password Generator</div>
+      <div className="PGen bg-contain box-content text-grey-200 h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="quiz">Javascript Quiz</div>
+      <div className="quiz bg-contain box-content text-grey-200 box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="DayPlanner">Day Planner</div>
+      <div className="DayPlanner bg-contain box-content text-grey-200 box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="ATX_Now">ATX Now</div>
+      <div className="ATX_Now bg-contain box-content text-grey-200 box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="note_taker">Note Taker</div>
+      <div className="note_taker bg-contain box-content text-grey-200 box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
-      <div class="box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
-        <div className="employee_database">Employee Database</div>
+      <div className="employee_database bg-contain box-content text-grey-200 box-content h-40 w-52 p-4 border-4 border-gray-400 bg-gray-200">
       </div>
 
     </div>
@@ -50,13 +45,13 @@ export default Portfolio
               <div className="row">
                 <div className="col-md-12">
 
-                  <div className="d-flex justify-content-md-around box-set">
-                    <div className="box" id="box1">
-                      <div className="title">
-                        <a href="https://n0matic.github.io/Password.Generator.io/" target="_blank" rel="noopener noreferrer">Password Generator</a>
-                      </div>
-                    </div>
-                    <div className="box" id="box2">
+              <div className="d-flex justify-content-md-around box-set">
+                <div className="box" id="box1">
+                  <div className="title">
+                    <a href="https://n0matic.github.io/Password.Generator.io/" target="_blank" rel="noopener noreferrer">Password Generator</a>
+                  </div>
+                </div>
+                <div className="box" id="box2">
                       <div className="title">
                         <a href="https://n0matic.github.io/JavaScript.quiz.io/" target="_blank" rel="noopener noreferrer">Javascript Quiz</a>
                       </div>

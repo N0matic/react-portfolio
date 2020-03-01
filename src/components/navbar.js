@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -30,8 +30,9 @@ function Navbar() {
             </Link>
         </li>
       </ul>
+      <h1 className="text-white bg-teal-400 text-4xl font-serif font-semibold p-1">Z|Naddaf</h1>
     </nav>
   )
 }
 
-export default Navbar
+export default withRouter(Navbar)
