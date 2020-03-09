@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6">
+    <nav className="flex items-center justify-center sm:justify-between flex-wrap p-6">
       <ul className="flex border-b">
         <li className="flex-1 mr-2">
           <Link
@@ -30,7 +30,7 @@ function Navbar() {
             </Link>
         </li>
       </ul>
-      <h1 className="text-white bg-teal-400 text-4xl font-serif font-semibold p-1">Z|Naddaf</h1>
+      <h1 className="text-white bg-blue-500 text-4xl font-serif font-semibold p-1">Z|Naddaf</h1>
     </nav>
   )
 }

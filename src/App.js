@@ -5,7 +5,6 @@ import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import projects from './projects.json';
-import imageCard from './components/imageCard'
 
 class App extends Component {
 
@@ -29,14 +28,3 @@ class App extends Component {
 }
 
 export default App;
-
-// {this.state.projects.map(project => (
-//   <imageCard
-//     id={project.id}
-//     key={project.id}
-//     name={project.name}
-//     image={project.image}
-//     target={project.occupation}
-//     gitLink={project.location}
-//   />
-// ))}

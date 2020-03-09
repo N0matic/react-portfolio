@@ -3,19 +3,19 @@ import './home.css';
 
 function Home() {
   return (
-    <div className="max-w-sm w-full h-auto md:max-w-full md:flex m-auto table md:p-5">
+    <div className="max-w-sm w-full h-128 md:max-w-full md:flex m-auto table md:p-5">
 
       <div className="image min-w-sm h-56 md:h-auto md:w-1/4 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" title="Z's Headshot">
       </div>
 
-      <div className="border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
+      <div className="border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col">
         <div className="mb-8">
 
           <div className="md:text-left text-center text-gray-900 font-bold text-xl mb-2">About Me</div>
 
           <hr className="my-3" />
 
-          <p className="text-gray-700 text-base flex items-center">
+          <p className="text-gray-700 text-lg flex items-center">
             Software coder and nomad extraordinaire based out of Austin Texas, a passion for language produced a fluency in Spanish and Modern Greek and led me to coding.
                                 <br />
             Served in the Peace Corps in Ecuador and taught EFL for 7 years. Piloted the language
