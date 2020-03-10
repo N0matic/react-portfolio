@@ -6,6 +6,7 @@ import Footer from "./components/footer"
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import projects from './projects.json';
 
+
 class App extends Component {
 
   state = {

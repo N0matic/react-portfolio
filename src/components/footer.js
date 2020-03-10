@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="self-end flex-1 text-center h-2">
+    <div className="flex justify-center mt-0 lg:mt-16">
       Copyright &copy; 2020
     </div>
   )

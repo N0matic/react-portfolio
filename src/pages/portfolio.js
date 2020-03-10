@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import './portfolio.css';
 import ImageCard from '../components/imageCard'
+import BookWyrm from "./images/BookWyrm.png"
 import ATX_Now from "./images/ATX_Now.png"
 import DayPlanner from "./images/DayPlanner.png"
 import note_taker from "./images/note_taker.png"
@@ -10,34 +11,49 @@ import Quiz from "./images/Quiz.png"
 
 function Portfolio() {
   return (
-    <div className="m-auto w-4/5 flex flex-wrap justify-around p-3">
+    <div className="m-auto w-5/6 flex flex-wrap justify-around p-3">
 
       <ImageCard
         image={ATX_Now}
-      // name="ATX Now"
-      // website="https://kimiinglet.github.io/meanLeanFreakGoat/"
-      // github="https://github.com/kimiinglet/meanLeanFreakGoat"
-      // text="ATX Now blah blah"
+        name="ATX Now"
+        website="https://kgeary.github.io/atxnow/"
+        github="https://github.com/kgeary/atxnow.git"
       />
 
+      <ImageCard
+        image={BookWyrm}
+        name="Book Wyrm"
+        website="https://book-wyrm.herokuapp.com"
+        github="https://github.com/N0matic/book-wyrm.git"
+      />
 
-      <div className="PGen bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div>
+      <ImageCard
+        image={note_taker}
+        name="Note Taker"
+        website="https://rocky-waters-44071.herokuapp.com"
+        github="https://github.com/N0matic/Day.Planner.io.git"
+      />
 
-      <div className="quiz bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div>
+      <ImageCard
+        image={PGen}
+        name="Password Generator"
+        website="https://n0matic.github.io/Password.Generator.io/"
+        github="https://github.com/N0matic/Password.Generator.io.git"
+      />
 
-      <div className="DayPlanner bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div>
+      <ImageCard
+        image={Quiz}
+        name="Quiz Game"
+        website="https://n0matic.github.io/JavaScript.quiz.io/"
+        github="https://github.com/N0matic/JavaScript.quiz.io.git"
+      />
 
-      {/* <div className="ATX_Now bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div> */}
-
-      <div className="note_taker bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div>
-
-      <div className="employee_database bg-local bg-center bg-no-repeat bg-cover box-content text-grey-200 h-40 w-48 p-4 m-4 border-4 border-gray-400 bg-gray-200">
-      </div>
+      <ImageCard
+        image={DayPlanner}
+        name="Day Planner"
+        website="https://n0matic.github.io/Day.Planner.io/"
+        github="https://github.com/N0matic/Day.Planner.io"
+      />
 
     </div>
   )
