@@ -1,49 +1,29 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
-function Contact() {
+export default function ContactUs() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
-    <div>
-      <div className="container">
-        <div className="row">
-
-          <div className="container">
-
-            <div className="jumbotron contact" id="content">
-
-              <h2 className="card-title">Contact</h2>
-
-              <hr className="my-3" />
-
-              <div className="row">
-                <div className="col-md-12">
-
-                  <form className="mx-auto" action="/action_page.php">
-                    <div className="form-group">
-                      <label htmlFor="Name">Name</label>
-                      <input type="text" className="form-control" id="Name" placeholder="John Smith" />
-                    </div>
-                    <div className="form-group">
-                      <label for="InputEmail1">Email</label>
-                      <input type="email" className="form-control" id="exampleInputEmail2"
-                        aria-describedby="emailHelp" name="Email" placeholder="example@gmail.com" />
-                    </div>
-                    <div className="form-group">
-                      <label for="Message">Message</label>
-                      <textarea className="form-control" id="Message" rows="3"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                  </form>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  )
+    <form className="contact-form" onSubmit={sendEmail}>
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
 }
-
-export default Contact

@@ -1,12 +1,11 @@
 import React from 'react';
-import './home.css';
 import Headshot from "./images/headshot.jpg"
 
 function Home() {
   return (
-    <div className="max-w-sm w-full h-128 md:max-w-full md:flex m-auto table md:p-5">
+    <div className="max-w-sm md:max-w-full md:flex m-auto md:p-5" style={{ height: "28rem" }}>
 
-      <img src={Headshot} alt="Z's Headshot" className="min-w-sm h-56 md:h-auto md:w-1/4 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" />
+      <div style={{ backgroundImage: `url(${Headshot})` }} title="Z's Headshot" className="min-w-sm md:h-64 md:w-56 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l overflow-hidden" />
 
       <div className="border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col">
 

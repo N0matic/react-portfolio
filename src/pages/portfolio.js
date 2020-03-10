@@ -1,6 +1,4 @@
 import React from 'react';
-import './home.css';
-import './portfolio.css';
 import ImageCard from '../components/imageCard'
 import BookWyrm from "./images/BookWyrm.png"
 import ATX_Now from "./images/ATX_Now.png"
@@ -35,17 +33,17 @@ function Portfolio() {
       />
 
       <ImageCard
-        image={PGen}
-        name="Password Generator"
-        website="https://n0matic.github.io/Password.Generator.io/"
-        github="https://github.com/N0matic/Password.Generator.io.git"
-      />
-
-      <ImageCard
         image={Quiz}
         name="Quiz Game"
         website="https://n0matic.github.io/JavaScript.quiz.io/"
         github="https://github.com/N0matic/JavaScript.quiz.io.git"
+      />
+
+      <ImageCard
+        image={PGen}
+        name="Password Generator"
+        website="https://n0matic.github.io/Password.Generator.io/"
+        github="https://github.com/N0matic/Password.Generator.io.git"
       />
 
       <ImageCard
