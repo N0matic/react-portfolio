@@ -3,17 +3,17 @@ import Headshot from "./images/headshot.jpg"
 
 function Home() {
   return (
-    <div className="max-w-sm md:max-w-full md:flex m-auto md:p-5" style={{ height: "28rem" }}>
+    <div className="max-w-sm md:max-w-full md:flex mx-auto md:m-16">
 
-      <div style={{ backgroundImage: `url(${Headshot})` }} title="Z's Headshot" className="min-w-sm md:h-64 md:w-56 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l overflow-hidden" />
+      <div style={{ backgroundImage: `url(${Headshot})` }} title="Z's Headshot" className="h-56 md:h-auto md:w-56 flex-none bg-cover md:bg-center rounded-t md:rounded-t-none md:rounded-l overflow-hidden" />
 
-      <div className="border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col">
+      <div className="border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
 
-        <div className="md:text-left text-center text-gray-900 font-bold text-xl mb-2">About Me</div>
+        <div className="text-gray-900 font-bold text-xl mb-2">About Me</div>
 
         <hr className="my-3" />
 
-        <p className="text-gray-700 text-lg flex items-center">
+        <p className="text-gray-700 text-md flex items-center">
           Software coder and nomad extraordinaire based out of Austin Texas, a passion for language produced a fluency in Spanish and Modern Greek and led me to coding.
                                 <br />
           Served in the Peace Corps in Ecuador and taught EFL for 7 years. Piloted the language
