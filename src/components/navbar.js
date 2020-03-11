@@ -30,7 +30,7 @@ function Navbar() {
             </Link>
         </li>
       </ul>
-      <h1 className="text-white bg-blue-500 text-4xl font-serif font-semibold p-1">Z|Naddaf</h1>
+      <h1 className="text-white bg-blue-500 text-4xl font-serif font-semibold p-2">Z|Naddaf</h1>
     </nav>
   )
 }
