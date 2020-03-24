@@ -8,8 +8,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 // import styled, { keyframes } from "styled-components";
 // import greek from "./pages/images/greek-vase.png"
 
-
-
 const App = () => {
   //   const useMediaQuery = (query) => {
   //     const mediaMatch = window.matchMedia(query);
