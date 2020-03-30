@@ -16,6 +16,7 @@ function Portfolio() {
         name="ATX Now"
         website="https://kgeary.github.io/atxnow/"
         github="https://github.com/kgeary/atxnow.git"
+        description="Frontend Styling and Project Management"
       />
 
       <ImageCard
@@ -23,6 +24,7 @@ function Portfolio() {
         name="Book Wyrm"
         website="https://book-wyrm.herokuapp.com"
         github="https://github.com/N0matic/book-wyrm.git"
+        description="Frontend Styling and Project Management"
       />
 
       <ImageCard
@@ -30,6 +32,7 @@ function Portfolio() {
         name="Note Taker"
         website="https://rocky-waters-44071.herokuapp.com"
         github="https://github.com/N0matic/Day.Planner.io.git"
+        description="Frontend Styling and Project Management"
       />
 
       <ImageCard
@@ -37,13 +40,15 @@ function Portfolio() {
         name="Quiz Game"
         website="https://n0matic.github.io/JavaScript.quiz.io/"
         github="https://github.com/N0matic/JavaScript.quiz.io.git"
+        description="Frontend Styling and Project Management"
       />
 
       <ImageCard
         image={PGen}
-        name="Password Generator"
+        name="Password Gen"
         website="https://n0matic.github.io/Password.Generator.io/"
         github="https://github.com/N0matic/Password.Generator.io.git"
+        description="Frontend Styling and Project Management"
       />
 
       <ImageCard
@@ -51,6 +56,7 @@ function Portfolio() {
         name="Day Planner"
         website="https://n0matic.github.io/Day.Planner.io/"
         github="https://github.com/N0matic/Day.Planner.io"
+        description="Frontend Styling and Project Management"
       />
 
     </div>

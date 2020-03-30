@@ -1,7 +1,7 @@
 ### Attributions
 
 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
+<a href="https://icons8.com/icon/44943/z-coordinate">Z Coordinate icon by Icons8</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
