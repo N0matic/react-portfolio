@@ -5,7 +5,7 @@ import mail from '../pages/images/icons/mail.png'
 
 function Footer() {
   return (
-    <div>
+    <div className="mb-1">
       <p className="font-sans italic text-center mt-5">// C O N T A C T - M E :</p>
       <div className="flex justify-center md:justify-around mt-2 md:mt-5 bottom-0 font-sans">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/N0matic" className="hover:text-blue-400">

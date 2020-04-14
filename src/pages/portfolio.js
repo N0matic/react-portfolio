@@ -32,7 +32,7 @@ function Portfolio() {
         name="Note Taker"
         website="https://rocky-waters-44071.herokuapp.com"
         github="https://github.com/N0matic/Day.Planner.io.git"
-        description="Frontend Styling and Project Management"
+        description="Personal project for storing notes"
       />
 
       <ImageCard
@@ -40,7 +40,7 @@ function Portfolio() {
         name="Quiz Game"
         website="https://n0matic.github.io/JavaScript.quiz.io/"
         github="https://github.com/N0matic/JavaScript.quiz.io.git"
-        description="Frontend Styling and Project Management"
+        description="Personal project for a trivia game"
       />
 
       <ImageCard
@@ -48,7 +48,7 @@ function Portfolio() {
         name="Password Gen"
         website="https://n0matic.github.io/Password.Generator.io/"
         github="https://github.com/N0matic/Password.Generator.io.git"
-        description="Frontend Styling and Project Management"
+        description="Personal project for an animated keygen"
       />
 
       <ImageCard
@@ -56,7 +56,7 @@ function Portfolio() {
         name="Day Planner"
         website="https://n0matic.github.io/Day.Planner.io/"
         github="https://github.com/N0matic/Day.Planner.io"
-        description="Frontend Styling and Project Management"
+        description="Personal project for a time-sensitive planner"
       />
 
     </div>
