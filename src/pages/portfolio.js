@@ -2,10 +2,10 @@ import React from 'react';
 import ImageCard from '../components/imageCard'
 import BookWyrm from "./images/BookWyrm.png"
 import ATX_Now from "./images/ATX_Now.png"
-import DayPlanner from "./images/DayPlanner.png"
-import note_taker from "./images/note_taker.png"
 import PGen from "./images/PGen.png"
 import Quiz from "./images/Quiz.png"
+import Forkify from "./images/my.forkify.png"
+import BudgetBuilder from "./images/BudgetBuilder.png"
 
 function Portfolio() {
   return (
@@ -28,11 +28,11 @@ function Portfolio() {
       />
 
       <ImageCard
-        image={note_taker}
-        name="Note Taker"
-        website="https://rocky-waters-44071.herokuapp.com"
-        github="https://github.com/N0matic/Day.Planner.io.git"
-        description="Personal project for storing notes"
+        image={Forkify}
+        name="my.forkify"
+        website="my-forkify.herokuapp.com/"
+        github="https://github.com/N0matic/my.forkify"
+        description="Recipe search app, cloned and developed for a Udemy course"
       />
 
       <ImageCard
@@ -52,11 +52,11 @@ function Portfolio() {
       />
 
       <ImageCard
-        image={DayPlanner}
-        name="Day Planner"
-        website="https://n0matic.github.io/Day.Planner.io/"
-        github="https://github.com/N0matic/Day.Planner.io"
-        description="Personal project for a time-sensitive planner"
+        image={BudgetBuilder}
+        name="BudgetBuilder"
+        website="https://n0matic.github.io/BudgetBuilder/"
+        github="https://github.com/N0matic/BudgetBuilder"
+        description="JavaScript app for budgetting for a Udemy course"
       />
 
     </div>
